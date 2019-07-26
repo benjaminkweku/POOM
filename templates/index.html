@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <link rel="shortcut icon" type="image/x-icon" href="{{url_for('static', filename='img/ICON.ico')}}">
-    <title></title>
+    <title>POOM</title>
 
     <!-- Google font -->
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700" rel="stylesheet">
@@ -77,16 +77,24 @@
                         <a class="header-search">
                             <form action="/on" , method="GET">
 
-                                <input class="input" id="input_on" name="box1" placeholder="type here">
-                                <button class="search-btn" id="search" name="click1">ON</button>
+                                <input class="input" name="box1" placeholder="Search here">
+                                <button class="search-btn">on</button>
 
                             </form>
                             <form action="/on/off" , method="GET">
 
-                                <input class="input" id="input_on" name="box2" placeholder="type here">
-                                <button class="search-btn" id="search1" name="click">OFF</button>
+
+                                <button class="search-btn">off</button>
 
                             </form>
+                            <form action="/motor" , method="GET">
+
+
+                                <button class="search-btn">open&close</button>
+
+                            </form>
+
+
                     </div>
                 </div>
                 <!-- /SEARCH BAR -->
@@ -132,4 +140,4 @@
 
 </body>
 
-</html>
+</htm>
